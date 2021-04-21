@@ -1,0 +1,34 @@
+type,label,sketchStyle,symbolStyle,textStyle
+tab,Lines,,,
+line,"Solid, 1px",style=solid&strokeThickness=1&mode=straight&autoText=true,,
+line,"Solid, 3px",style=solid&strokeThickness=3&mode=straight&autoText=true,,
+line,"Solid, 5px",style=solid&strokeThickness=5&mode=straight&autoText=true,,
+line,"Solid, 1px, red",style=solid&strokeThickness=1&color=red&mode=straight&autoText=true,,
+line,"Solid, 3px, red",style=solid&strokeThickness=3&color=red&mode=straight&autoText=true,,
+line,"Solid, 5px, red",style=solid&strokeThickness=5&color=red&mode=straight&autoText=true,,
+line,"Solid, 1px, yellow",style=solid&strokeThickness=1&color=yellow&mode=straight&autoText=true,,
+line,"Solid, 3px, yellow",style=solid&strokeThickness=3&color=yellow&mode=straight&autoText=true,,
+line,"Solid, 5px, yellow",style=solid&strokeThickness=5&color=yellow&mode=straight&autoText=true,,
+line,"Dashed, 1px",style=dashed&strokeThickness=1&mode=straight&autoText=true,,
+line,"Dashed, 3px",style=dashed&strokeThickness=3&mode=straight&autoText=true,,
+line,"Dashed, 5px",style=dashed&strokeThickness=5&mode=straight&autoText=true,,
+endtab,,,,
+tab,Symbols,,,
+symbol,Circle,,"file=""circle.svg""&width=32&height=32&color=red",
+symbol,Star,,"file=""star.svg""&width=32&height=32&color=red",
+symbol,Triangle,,"file=""triangle.svg""&width=32&height=32&color=red",
+symbol,Square,,"file=""square.svg""&width=32&height=32&color=red",
+symbol,Plus,,"file=""plus.svg""&width=32&height=32&color=red",
+symbol,North Arrow,,"file=""north.svg""&width=32&height=32&color=red",
+endtab,,,,
+tab,Text,,,
+text,Small,,,fontSize=8
+text,Medium,,,fontSize=12
+text,Large,,,fontSize=16
+text,"Small, red",,,fontSize=8&color=red
+text,"Medium, red",,,fontSize=12&color=red
+text,"Large, red",,,fontSize=16&color=red
+text,"Small, yellow",,,fontSize=8&color=yellow
+text,"Medium, yellow",,,fontSize=12&color=yellow
+text,"Large, yellow",,,fontSize=16&color=yellow
+endtab,,,,

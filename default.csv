@@ -1,0 +1,34 @@
+type,label,sketchStyle,symbolStyle,textStyle
+tab,Lines,,,
+line,"Solid, 2px",strokeWidth=2,,
+line,"Solid, 6px",strokeWidth=6,,
+line,"Solid, 12px",strokeWidth=12,,
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,
+line,"Solid, 6px, red",strokeWidth=6&strokeColor=red,,
+line,"Solid, 12px, red",strokeWidth=12&strokeColor=red,,
+line,"Solid, 2px, gold",strokeWidth=2&strokeColor=gold,,
+line,"Solid, 6px, gold",strokeWidth=6&strokeColor=gold,,
+line,"Solid, 12px, gold",strokeWidth=12&strokeColor=gold,,
+line,"Dashed, 2px","strokeWidth=2&dashPattern=[2,2]",,
+line,"Dashed, 6px","strokeWidth=6&dashPattern=[2,2]",,
+line,"Dashed, 12px","strokeWidth=12&dashPattern=[2,2]",,
+endtab,,,,
+tab,Symbols,,,
+symbol,Circle,,"file=""circle.svg""&width=32&height=32&color=red",
+symbol,Star,,"file=""star.svg""&width=32&height=32&color=red",
+symbol,Triangle,,"file=""triangle.svg""&width=32&height=32&color=red",
+symbol,Square,,"file=""square.svg""&width=32&height=32&color=red",
+symbol,Plus,,"file=""plus.svg""&width=32&height=32&color=red",
+symbol,North Arrow,,"file=""north.svg""&width=32&height=32&color=red",
+endtab,,,,
+tab,Text,,,
+text,Small,,,fontSize=8
+text,Medium,,,fontSize=12
+text,Large,,,fontSize=16
+text,"Small, red",,,fontSize=8&color=red
+text,"Medium, red",,,fontSize=12&color=red
+text,"Large, red",,,fontSize=16&color=red
+text,"Small, gold",,,fontSize=8&color=gold
+text,"Medium, gold",,,fontSize=12&color=gold
+text,"Large, gold",,,fontSize=16&color=gold
+endtab,,,,
