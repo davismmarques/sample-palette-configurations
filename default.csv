@@ -1,19 +1,16 @@
 type,label,sketchStyle,symbolStyle,textStyle
-tab,Lines,,,
-line,"Solid, 2px",strokeWidth=2,,
-line,"Solid, 6px",strokeWidth=6,,
-line,"Solid, 12px",strokeWidth=12,,
-line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,
-line,"Solid, 6px, red",strokeWidth=6&strokeColor=red,,
-line,"Solid, 12px, red",strokeWidth=12&strokeColor=red,,
-line,"Solid, 2px, gold",strokeWidth=2&strokeColor=gold,,
-line,"Solid, 6px, gold",strokeWidth=6&strokeColor=gold,,
-line,"Solid, 12px, gold",strokeWidth=12&strokeColor=gold,,
-line,"Dashed, 2px","strokeWidth=2&dashPattern=[2,2]",,
-line,"Dashed, 6px","strokeWidth=6&dashPattern=[2,2]",,
-line,"Dashed, 12px","strokeWidth=12&dashPattern=[2,2]",,
+tab,Lines,,"file=""line-straight-16.svg""",
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red
+line,"Solid, 2px, green",strokeWidth=6&strokeColor=green,,fontSize=8&color=green
+line,"Solid, 2px, blue",strokeWidth=12&strokeColor=blue,,fontSize=8&color=blue
+line,"Solid, 12px, red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red
+line,"Solid, 12px, green",strokeWidth=6&strokeColor=green,,fontSize=8&color=green
+line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue,,fontSize=8&color=blue
+line,"Dashed, 2px red","strokeWidth=2&dashPattern=[2,2]&strokeColor=red",,fontSize=8&color=red
+line,"Dashed, 6px green","strokeWidth=6&dashPattern=[2,2]&strokeColor=green",,fontSize=8&color=green
+line,"Dashed, 12px blue","strokeWidth=12&dashPattern=[2,2]&strokeColor=blue",,fontSize=8&color=blue
 endtab,,,,
-tab,Symbols,,,
+tab,Symbols,,"file=""star-16.svg""",
 symbol,Circle,,"file=""circle.svg""&width=32&height=32&color=red",
 symbol,Star,,"file=""star.svg""&width=32&height=32&color=red",
 symbol,Triangle,,"file=""triangle.svg""&width=32&height=32&color=red",
@@ -21,7 +18,7 @@ symbol,Square,,"file=""square.svg""&width=32&height=32&color=red",
 symbol,Plus,,"file=""plus.svg""&width=32&height=32&color=red",
 symbol,North Arrow,,"file=""north.svg""&width=32&height=32&color=red",
 endtab,,,,
-tab,Text,,,
+tab,Text,,"file=""heading-16.svg""",
 text,Small,,,fontSize=8
 text,Medium,,,fontSize=12
 text,Large,,,fontSize=16
