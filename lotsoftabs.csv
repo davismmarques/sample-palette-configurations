@@ -1,0 +1,36 @@
+type,label,sketchStyle,symbolStyle,textStyle
+tab,Solid,,"file=""line-straight-16.svg""",
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red
+line,"Solid, 2px, green",strokeWidth=6&strokeColor=red,,fontSize=8&color=green
+line,"Solid, 2px, blue",strokeWidth=12&strokeColor=red,,fontSize=8&color=blue
+endtab,,,,
+tab,Dashed,,"file=""line-straight-16.svg""",
+line,"Dashed, 2px red","strokeWidth=2&dashPattern=[3,2]&strokeColor=red",,fontSize=8&color=red
+line,"Dashed, 6px green","strokeWidth=6&dashPattern=[3,2]&strokeColor=green",,fontSize=8&color=green
+line,"Dashed, 12px blue","strokeWidth=12&dashPattern=[3,2]&strokeColor=blue",,fontSize=8&color=blue
+endtab,,,,
+tab,Dotted,,"file=""line-straight-16.svg""",
+line,"Dotted, 2px red","strokeWidth=2&dashPattern=[1,2]&strokeColor=red",,fontSize=8&color=red
+line,"Dotted, 6px green","strokeWidth=6&dashPattern=[1,2]&strokeColor=green",,fontSize=8&color=green
+line,"Dotted, 12px blue","strokeWidth=12&dashPattern=[1,2]&strokeColor=blue",,fontSize=8&color=blue
+endtab,,,,
+tab,Coloured,,"file=""line-straight-16.svg""",
+line,"Dotted, 2px red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red
+line,"Dotted, 6px green",strokeWidth=6&strokeColor=green,,fontSize=8&color=green
+line,"Dotted, 12px blue",strokeWidth=12&strokeColor=blue,,fontSize=8&color=blue
+endtab,,,,
+tab,Gray,,"file=""line-straight-16.svg""",
+line,"Dotted, 2px red",strokeWidth=2&strokeColor=lightgray,,fontSize=8&color=red
+line,"Dotted, 6px green",strokeWidth=6&strokeColor=lightgray,,fontSize=8&color=green
+line,"Dotted, 12px blue",strokeWidth=12&strokeColor=lightgray,,fontSize=8&color=blue
+endtab,,,,
+tab,Green,,"file=""line-straight-16.svg""",
+line,"Dotted, 2px red",strokeWidth=2&strokeColor=green,,fontSize=8&color=red
+line,"Dotted, 6px green",strokeWidth=6&strokeColor=green,,fontSize=8&color=green
+line,"Dotted, 12px blue",strokeWidth=12&strokeColor=green,,fontSize=8&color=blue
+endtab,,,,
+tab,Blue,,"file=""line-straight-16.svg""",
+line,"Dotted, 2px red",strokeWidth=2&strokeColor=blue,,fontSize=8&color=red
+line,"Dotted, 6px green",strokeWidth=6&strokeColor=blue,,fontSize=8&color=green
+line,"Dotted, 12px blue",strokeWidth=12&strokeColor=blue,,fontSize=8&color=blue
+endtab,,,,
