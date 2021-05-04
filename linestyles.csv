@@ -1,0 +1,35 @@
+type,label,sketchStyle,symbolStyle,textStyle
+tab,Solid Lines,,"file=""line-straight-16.svg""",
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red
+line,"Solid, 2px, green",strokeWidth=2&strokeColor=green,,fontSize=8&color=green
+line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue,,fontSize=8&color=blue
+line,"Solid, 12px, red",strokeWidth=12&strokeColor=red,,fontSize=8&color=red
+line,"Solid, 12px, green",strokeWidth=12&strokeColor=green,,fontSize=8&color=green
+line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue,,fontSize=8&color=blue
+endtab,,,,
+tab,Dashed Lines,,"file=""star-16.svg""",
+line,"Dashed, 2px red","strokeWidth=2&dashPattern=[2,2]&strokeColor=red",,fontSize=8&color=red
+line,"Dashed, 6px green","strokeWidth=6&dashPattern=[2,2]&strokeColor=green",,fontSize=8&color=green
+line,"Dashed, 12px blue","strokeWidth=12&dashPattern=[2,2]&strokeColor=blue",,fontSize=8&color=blue
+endtab,,,,
+tab,Smart Lines,,"file=""heading-16.svg""",
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red&type=smart,,fontSize=8&color=red
+line,"Solid, 2px, green",strokeWidth=2&strokeColor=green&type=smart,,fontSize=8&color=green
+line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue&type=smart,,fontSize=8&color=blue
+line,"Solid, 12px, red",strokeWidth=12&strokeColor=red&type=smart,,fontSize=8&color=red
+line,"Solid, 12px, green",strokeWidth=12&strokeColor=green&type=smart,,fontSize=8&color=green
+line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue&type=smart,,fontSize=8&color=blue
+endtab,,,,
+tab,Arrowheads,,"file=""heading-16.svg""",
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red&end=arrow,,fontSize=8&color=red
+line,"Solid, 2px, green",strokeWidth=2&strokeColor=green&end=arrow,,fontSize=8&color=green
+line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue&end=arrow,,fontSize=8&color=blue
+line,"Solid, 12px, red",strokeWidth=12&strokeColor=red&end=arrow,,fontSize=8&color=red
+line,"Solid, 12px, green",strokeWidth=12&strokeColor=green&end=arrow,,fontSize=8&color=green
+line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue&end=arrow,,fontSize=8&color=blue
+endtab,,,,
+tab,Autotext,,"file=""heading-16.svg""",
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red&autoText=true
+line,"Solid, 2px, green",strokeWidth=2&strokeColor=green&end=arrow,,fontSize=8&color=green&autoText=true
+line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue&end=arrow,,fontSize=8&color=blue&autoText=true
+endtab,,,,
