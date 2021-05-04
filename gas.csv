@@ -1,36 +1,37 @@
 type,label,sketchStyle,symbolStyle,textStyle
 tab,Existing,,"file=""line-dotted-32.svg""",
-line,"Solid, 1px",style=solid&strokeThickness=1&mode=straight&autoText=true,,
-line,"Solid, 3px",style=solid&strokeThickness=3&mode=straight&autoText=true,,
-line,"Solid, 5px",style=solid&strokeThickness=5&mode=straight&autoText=true,,
-line,"Solid, 1px, red",style=solid&strokeThickness=1&color=red&mode=straight&autoText=true,,
-line,"Solid, 3px, red",style=solid&strokeThickness=3&color=red&mode=straight&autoText=true,,
-line,"Solid, 5px, red",style=solid&strokeThickness=5&color=red&mode=straight&autoText=true,,
+line,Existing gas service,strokeWidth=3&strokeColor=gold,,
+line,Existing gas service to be abandoned,"strokeWidth=3&strokeColor=gold&dashPattern=[10,2]",,
+line,Existing inserted gas service,strokeWidth=6&strokeColor=gold,,
+line,Existing gas main,strokeWidth=3&strokeColor=green,,
+line,Existing gas main to be abandoned,"strokeWidth=3&strokeColor=green&dashPattern=[10,2]",,
+line,Existing inserted gas main,strokeWidth=3&strokeColor=green,,
 endtab,,,,
-tab,Proposed,,"file=""line-straight-16.svg""",
-line,"Solid, 1px, yellow",style=solid&strokeThickness=1&color=yellow&mode=straight&autoText=true,,
-line,"Solid, 3px, yellow",style=solid&strokeThickness=3&color=yellow&mode=straight&autoText=true,,
-line,"Solid, 5px, yellow",style=solid&strokeThickness=5&color=yellow&mode=straight&autoText=true,,
-line,"Dashed, 1px",style=dashed&strokeThickness=1&mode=straight&autoText=true,,
-line,"Dashed, 3px",style=dashed&strokeThickness=3&mode=straight&autoText=true,,
-line,"Dashed, 5px",style=dashed&strokeThickness=5&mode=straight&autoText=true,,
+tab,Proposed,,"file=""line-solid-16.svg""",
+line,Proposed gas service,"strokeWidth=3&strokeColor=magenta&dashPattern=[5,2]",,
+line,Proposed inserted gas service,"strokeWidth=6&strokeColor=magenta&dashPattern=[5,2]",,
+line,Proposed gas main,"strokeWidth=3&strokeColor=cyan&dashPattern=[7,2]",,
+line,Proposed inserted gas main,"strokeWidth=6&strokeColor=cyan&dashPattern=[7,2]",,
 endtab,,,,
-tab,Symbols,,"file=""star-16.svg""",
-symbol,Circle,,"file=""circle.svg""&width=32&height=32&color=red",
-symbol,Star,,"file=""star.svg""&width=32&height=32&color=red",
-symbol,Triangle,,"file=""triangle.svg""&width=32&height=32&color=red",
-symbol,Square,,"file=""square.svg""&width=32&height=32&color=red",
-symbol,Plus,,"file=""plus.svg""&width=32&height=32&color=red",
-symbol,North Arrow,,"file=""north.svg""&width=32&height=32&color=red",
+tab,Markers,,"file=""star-16.svg""",
+symbol,Proposed service tee,,"file=""circle.svg""&size=32&color=magenta",
+symbol,Proposed service riser,,"file=""star.svg""&size=32&color=magenta",
+symbol,Proposed service valve,,"file=""triangle.svg""&size=32&color=magenta",
+symbol,Proposed service EFV,,"file=""square.svg""&size=32&color=magenta",
+symbol,Proposed service meter,,"file=""plus.svg""&size=32&color=magenta",
+symbol,Proposed service regulator,,"file=""north.svg""&size=32&color=magenta",
+symbol,Existing service tee,,"file=""circle.svg""&size=32&color=gold",
+symbol,Existing service riser,,"file=""star.svg""&size=32&color=gold",
+symbol,Existing service valve,,"file=""triangle.svg""&size=32&color=gold",
+symbol,Existing service EFV,,"file=""square.svg""&size=32&color=gold",
+symbol,Existing service meter,,"file=""plus.svg""&size=32&color=gold",
+symbol,Existing service regulator,,"file=""north.svg""&size=32&color=gold",
 endtab,,,,
-tab,Text,,"file=""heading-16.svg""",
-text,Small,,,fontSize=8
-text,Medium,,,fontSize=12
-text,Large,,,fontSize=16
-text,"Small, red",,,fontSize=8&color=red
-text,"Medium, red",,,fontSize=12&color=red
-text,"Large, red",,,fontSize=16&color=red
-text,"Small, yellow",,,fontSize=8&color=yellow
-text,"Medium, yellow",,,fontSize=12&color=yellow
-text,"Large, yellow",,,fontSize=16&color=yellow
+tab,Labels,,"file=""heading-16.svg""",
+text,"Small, magenta",,,fontSize=8&color=magenta
+text,"Medium, magenta",,,fontSize=12&color=magenta
+text,"Large, magenta",,,fontSize=16&color=magenta
+text,"Small, gold",,,fontSize=8&color=gold
+text,"Medium, gold",,,fontSize=12&color=gold
+text,"Large, gold",,,fontSize=16&color=gold
 endtab,,,,
