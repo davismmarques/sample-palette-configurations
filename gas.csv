@@ -1,5 +1,5 @@
 type,label,sketchStyle,symbolStyle,textStyle
-tab,Existing,,"file=""line-dotted-32.svg""",
+tab,Existing,,"file=""line-dotted-16.svg""",
 line,Existing gas service,strokeWidth=3&strokeColor=gold,,
 line,Existing gas service to be abandoned,"strokeWidth=3&strokeColor=gold&dashPattern=[10,2]",,
 line,Existing inserted gas service,strokeWidth=6&strokeColor=gold,,
