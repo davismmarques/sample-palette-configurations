@@ -1,14 +1,14 @@
 type,label,sketchStyle,symbolStyle,textStyle
 tab,Lines,,"file=""line-straight-16.svg""",
-line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red
-line,"Solid, 2px, green",strokeWidth=6&strokeColor=green,,fontSize=8&color=green
-line,"Solid, 2px, blue",strokeWidth=12&strokeColor=blue,,fontSize=8&color=blue
-line,"Solid, 12px, red",strokeWidth=2&strokeColor=red,,fontSize=8&color=red
-line,"Solid, 12px, green",strokeWidth=6&strokeColor=green,,fontSize=8&color=green
-line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue,,fontSize=8&color=blue
-line,"Dashed, 2px red","strokeWidth=2&dashPattern=[2,2]&strokeColor=red",,fontSize=8&color=red
-line,"Dashed, 6px green","strokeWidth=6&dashPattern=[2,2]&strokeColor=green",,fontSize=8&color=green
-line,"Dashed, 12px blue","strokeWidth=12&dashPattern=[2,2]&strokeColor=blue",,fontSize=8&color=blue
+line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,fontSize=12&color=red
+line,"Solid, 2px, green",strokeWidth=6&strokeColor=green,,fontSize=12&color=green
+line,"Solid, 2px, blue",strokeWidth=12&strokeColor=blue,,fontSize=12&color=blue
+line,"Solid, 12px, red",strokeWidth=2&strokeColor=red,,fontSize=12&color=red
+line,"Solid, 12px, green",strokeWidth=6&strokeColor=green,,fontSize=12&color=green
+line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue,,fontSize=12&color=blue
+line,"Dashed, 2px red","strokeWidth=2&dashPattern=[2,2]&strokeColor=red",,fontSize=12&color=red
+line,"Dashed, 6px green","strokeWidth=6&dashPattern=[2,2]&strokeColor=green",,fontSize=12&color=green
+line,"Dashed, 12px blue","strokeWidth=12&dashPattern=[2,2]&strokeColor=blue",,fontSize=12&color=blue
 endtab,,,,
 tab,Markers,,"file=""star-16.svg""",
 symbol,Circle,,"file=""circle-16.svg""&width=32&height=32&color=red",
@@ -19,13 +19,13 @@ symbol,Rectangle,,"file=""rectangle-16.svg""&width=32&height=32&color=red",
 symbol,Triangle,,"file=""exclamation-mark-triangle-16.svg""&width=32&height=32&color=red",
 endtab,,,,
 tab,Text,,"file=""heading-16.svg""",
-text,Small,,,fontSize=8
-text,Medium,,,fontSize=12
-text,Large,,,fontSize=16
-text,"Small, red",,,fontSize=8&color=red
-text,"Medium, red",,,fontSize=12&color=red
-text,"Large, red",,,fontSize=16&color=red
-text,"Small, gold",,,fontSize=8&color=gold
-text,"Medium, gold",,,fontSize=12&color=gold
-text,"Large, gold",,,fontSize=16&color=gold
+text,Small,,,fontSize=12
+text,Medium,,,fontSize=18
+text,Large,,,fontSize=24
+text,"Small, red",,,fontSize=12&color=red
+text,"Medium, red",,,fontSize=18&color=red
+text,"Large, red",,,fontSize=24&color=red
+text,"Small, gold",,,fontSize=12&color=gold
+text,"Medium, gold",,,fontSize=18&color=gold
+text,"Large, gold",,,fontSize=24&color=gold
 endtab,,,,

@@ -28,10 +28,10 @@ symbol,Existing service meter,,"file=""pge-existing-meter.svg""&width=64&height=
 symbol,Existing service regulator,,"file=""pge-existing-regulator.svg""&width=64&height=64&color=gold",
 endtab,,,,
 tab,Labels,,"file=""heading-16.svg""",
-text,"Small, magenta",,,fontSize=8&color=magenta
-text,"Medium, magenta",,,fontSize=12&color=magenta
-text,"Large, magenta",,,fontSize=16&color=magenta
-text,"Small, gold",,,fontSize=8&color=gold
-text,"Medium, gold",,,fontSize=12&color=gold
-text,"Large, gold",,,fontSize=16&color=gold
+text,"Small, magenta",,,fontSize=12&color=magenta
+text,"Medium, magenta",,,fontSize=18&color=magenta
+text,"Large, magenta",,,fontSize=24&color=magenta
+text,"Small, gold",,,fontSize=12&color=gold
+text,"Medium, gold",,,fontSize=18&color=gold
+text,"Large, gold",,,fontSize=24&color=gold
 endtab,,,,
