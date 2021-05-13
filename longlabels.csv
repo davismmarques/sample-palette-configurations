@@ -1,0 +1,16 @@
+type,label,sketchStyle,textStyle
+tab,Shades of Red,,"tabLabel=""Red"""
+line,"Solid, 2px, red 1","strokeWidth=2&strokeColor=""#FF0000""",
+line,"Solid, 2px, red 2","strokeWidth=6&strokeColor=""#CC0000""",
+line,"Solid, 2px, red 3","strokeWidth=12&strokeColor=""#AA0000""",
+endtab,,,
+tab,Lots of Really Great Blues,,"tabLabel=""Blue"""
+line,"Solid, 2px, blue 1","strokeWidth=2&strokeColor=""#0000FF""",
+line,"Solid, 2px, blue 2","strokeWidth=6&strokeColor=""#0000CC""",
+line,"Solid, 2px, blue 3","strokeWidth=12&strokeColor=""#0000AA""",
+endtab,,,
+tab,Spectacularly Green Greens,,"tabLabel=""Green"""
+line,"Solid, 2px, green 1","strokeWidth=2&strokeColor=""#DAF7A6""",
+line,"Solid, 2px, green 2","strokeWidth=6&strokeColor=""#9ACD32""",
+line,"Solid, 2px, green 3","strokeWidth=12&strokeColor=""#3CB371""",
+endtab,,,
