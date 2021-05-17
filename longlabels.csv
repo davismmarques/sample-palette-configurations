@@ -1,0 +1,26 @@
+type,label,sketchStyle,symbolStyle,textStyle
+tab,Shades of Red,,"file=""line-straight-16.svg""","tabLabel=""Red"""
+line,"Solid, 2px, red 1","strokeWidth=2&strokeColor=""#FF0000""",,
+line,"Solid, 2px, red 2","strokeWidth=6&strokeColor=""#CC0000""",,
+line,"Solid, 2px, red 3","strokeWidth=12&strokeColor=""#AA0000""",,
+endtab,,,,
+tab,Lots of Really Great Blues,,"file=""line-straight-16.svg""","tabLabel=""Blue"""
+line,"Solid, 2px, blue 1","strokeWidth=2&strokeColor=""#0000FF""",,
+line,"Solid, 2px, blue 2","strokeWidth=6&strokeColor=""#0000CC""",,
+line,"Solid, 2px, blue 3","strokeWidth=12&strokeColor=""#0000AA""",,
+endtab,,,,
+tab,Spectacularly Green Greens,,"file=""line-straight-16.svg""","tabLabel=""Green"""
+line,"Solid, 2px, green 1","strokeWidth=2&strokeColor=""#DAF7A6""",,
+line,"Solid, 2px, green 2","strokeWidth=6&strokeColor=""#9ACD32""",,
+line,"Solid, 2px, green 3","strokeWidth=12&strokeColor=""#3CB371""",,
+endtab,,,,
+tab,Yellowey yellows,,"file=""line-straight-16.svg""",
+line,"Solid, 2px, yellow 1","strokeWidth=2&strokeColor=""#FFFF00""",,
+line,"Solid, 2px, yellow 2","strokeWidth=6&strokeColor=""#FFFACD""",,
+line,"Solid, 2px, yellow 3","strokeWidth=12&strokeColor=""#F0E68C""",,
+endtab,,,,
+tab,Orangey oranges,,"file=""line-straight-16.svg""",
+line,"Solid, 2px, yellow 1","strokeWidth=2&strokeColor=""#DAA520""",,
+line,"Solid, 2px, yellow 2","strokeWidth=6&strokeColor=""#D2691E""",,
+line,"Solid, 2px, yellow 3","strokeWidth=12&strokeColor=""#DAA520""",,
+endtab,,,,
