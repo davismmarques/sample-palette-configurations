@@ -1,5 +1,5 @@
 type,label,sketchStyle,symbolStyle,textStyle
-tab,Solid,,"file=""line-straight-16.svg""",
+tab,Solid,,"symbol=""line-straight-16.svg""",
 line,"Solid, 2px, red",,size=2&color=red,size=12
 line,"Solid, 2px, green",,size=6&color=red,size=12
 line,"Solid, 2px, blue",,size=12&color=red,size=12
