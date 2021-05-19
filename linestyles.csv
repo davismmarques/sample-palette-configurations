@@ -1,35 +1,35 @@
 type,label,sketchStyle,symbolStyle,textStyle
-tab,Solid Lines,,"file=""line-straight-16.svg""",
-line,"Solid, 2px, red",strokeWidth=2&strokeColor=red&mode=straight,,fontSize=12&color=red
-line,"Solid, 2px, green",strokeWidth=2&strokeColor=green&mode=straight,,fontSize=12&color=green
-line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue&mode=straight,,fontSize=12&color=blue
-line,"Solid, 12px, red",strokeWidth=12&strokeColor=red&mode=straight,,fontSize=12&color=red
-line,"Solid, 12px, green",strokeWidth=12&strokeColor=green&mode=straight,,fontSize=12&color=green
-line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue&mode=straight,,fontSize=12&color=blue
+tab,Solid Lines,,"symbol=""line-straight-16.svg""",
+line,"Solid, 2px, red",,size=2&color=red&mode=straight,size=12&color=red
+line,"Solid, 2px, green",,size=2&color=green&mode=straight,size=12&color=green
+line,"Solid, 2px, blue",,size=2&color=blue&mode=straight,size=12&color=blue
+line,"Solid, 12px, red",,size=12&color=red&mode=straight,size=12&color=red
+line,"Solid, 12px, green",,size=12&color=green&mode=straight,size=12&color=green
+line,"Solid, 12px, blue",,size=12&color=blue&mode=straight,size=12&color=blue
 endtab,,,,
-tab,Dashed Lines,,"file=""line-dotted-16.svg""",
-line,"Dashed, 2px red","strokeWidth=2&dashPattern=[2,2]&strokeColor=red",,fontSize=12&color=red
-line,"Dashed, 6px green","strokeWidth=6&dashPattern=[2,2]&strokeColor=green",,fontSize=12&color=green
-line,"Dashed, 12px blue","strokeWidth=12&dashPattern=[2,2]&strokeColor=blue",,fontSize=12&color=blue
+tab,Dashed Lines,,"symbol=""line-dotted-16.svg""",
+line,"Dashed, 2px red",,"size=2&dash=[2,2]&color=red",size=12&color=red
+line,"Dashed, 6px green",,"size=6&dash=[2,2]&color=green",size=12&color=green
+line,"Dashed, 12px blue",,"size=12&dash=[2,2]&color=blue",size=12&color=blue
 endtab,,,,
-tab,Smart Lines,,"file=""polygon-vertices-16.svg""",
-line,"Solid, 2px, red",strokeWidth=2&strokeColor=red&mode=smart,,fontSize=12&color=red
-line,"Solid, 2px, green",strokeWidth=2&strokeColor=green&mode=smart,,fontSize=12&color=green
-line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue&mode=smart,,fontSize=12&color=blue
-line,"Solid, 12px, red",strokeWidth=12&strokeColor=red&mode=smart,,fontSize=12&color=red
-line,"Solid, 12px, green",strokeWidth=12&strokeColor=green&mode=smart,,fontSize=12&color=green
-line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue&mode=smart,,fontSize=12&color=blue
+tab,Smart Lines,,"symbol=""polygon-vertices-16.svg""",
+line,"Solid, 2px, red",,size=2&color=red&mode=smart,size=12&color=red
+line,"Solid, 2px, green",,size=2&color=green&mode=smart,size=12&color=green
+line,"Solid, 2px, blue",,size=2&color=blue&mode=smart,size=12&color=blue
+line,"Solid, 12px, red",,size=12&color=red&mode=smart,size=12&color=red
+line,"Solid, 12px, green",,size=12&color=green&mode=smart,size=12&color=green
+line,"Solid, 12px, blue",,size=12&color=blue&mode=smart,size=12&color=blue
 endtab,,,,
-tab,Arrowheads,,"file=""arrow-up-right-16.svg""",
-line,"Solid, 2px, red",strokeWidth=2&strokeColor=red&end=arrow&mode=straight,,fontSize=12&color=red
-line,"Solid, 2px, green",strokeWidth=2&strokeColor=green&end=arrow&mode=straight,,fontSize=12&color=green
-line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue&end=arrow&mode=straight,,fontSize=12&color=blue
-line,"Solid, 12px, red",strokeWidth=12&strokeColor=red&end=arrow&mode=straight,,fontSize=12&color=red
-line,"Solid, 12px, green",strokeWidth=12&strokeColor=green&end=arrow&mode=straight,,fontSize=12&color=green
-line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue&end=arrow&mode=straight,,fontSize=12&color=blue
+tab,Arrowheads,,"symbol=""arrow-up-right-16.svg""",
+line,"Solid, 2px, red",,size=2&color=red&end=arrow&mode=straight,size=12&color=red
+line,"Solid, 2px, green",,size=2&color=green&end=arrow&mode=straight,size=12&color=green
+line,"Solid, 2px, blue",,size=2&color=blue&end=arrow&mode=straight,size=12&color=blue
+line,"Solid, 12px, red",,size=12&color=red&end=arrow&mode=straight,size=12&color=red
+line,"Solid, 12px, green",,size=12&color=green&end=arrow&mode=straight,size=12&color=green
+line,"Solid, 12px, blue",,size=12&color=blue&end=arrow&mode=straight,size=12&color=blue
 endtab,,,,
-tab,Autotext,,"file=""heading-16.svg""",
-line,"Solid, 2px, red",strokeWidth=2&strokeColor=red&mode=straight,,fontSize=12&color=red&autoText=true
-line,"Solid, 2px, green",strokeWidth=2&strokeColor=green&mode=straight,,fontSize=12&color=green&autoText=true
-line,"Solid, 2px, blue",strokeWidth=2&strokeColor=blue&mode=straight,,fontSize=12&color=blue&autoText=true
+tab,Autotext,,"symbol=""heading-16.svg""",
+line,"Solid, 2px, red",,size=2&color=red&mode=straight,size=12&color=red&autoText=true
+line,"Solid, 2px, green",,size=2&color=green&mode=straight,size=12&color=green&autoText=true
+line,"Solid, 2px, blue",,size=2&color=blue&mode=straight,size=12&color=blue&autoText=true
 endtab,,,,

@@ -1,31 +1,31 @@
 type,label,sketchStyle,symbolStyle,textStyle
-tab,Lines,,"file=""line-straight-16.svg""",
-line,"Solid, 2px, red",strokeWidth=2&strokeColor=red,,fontSize=12&color=red
-line,"Solid, 2px, green",strokeWidth=6&strokeColor=green,,fontSize=12&color=green
-line,"Solid, 2px, blue",strokeWidth=12&strokeColor=blue,,fontSize=12&color=blue
-line,"Solid, 12px, red",strokeWidth=2&strokeColor=red,,fontSize=12&color=red
-line,"Solid, 12px, green",strokeWidth=6&strokeColor=green,,fontSize=12&color=green
-line,"Solid, 12px, blue",strokeWidth=12&strokeColor=blue,,fontSize=12&color=blue
-line,"Dashed, 2px red","strokeWidth=2&dashPattern=[2,2]&strokeColor=red",,fontSize=12&color=red
-line,"Dashed, 6px green","strokeWidth=6&dashPattern=[2,2]&strokeColor=green",,fontSize=12&color=green
-line,"Dashed, 12px blue","strokeWidth=12&dashPattern=[2,2]&strokeColor=blue",,fontSize=12&color=blue
+tab,Lines,,"symbol=""line-straight-16.svg""",
+line,"Solid, 2px, red",,size=2&color=red,size=12&color=red
+line,"Solid, 2px, green",,size=6&color=green,size=12&color=green
+line,"Solid, 2px, blue",,size=12&color=blue,size=12&color=blue
+line,"Solid, 12px, red",,size=2&color=red,size=12&color=red
+line,"Solid, 12px, green",,size=6&color=green,size=12&color=green
+line,"Solid, 12px, blue",,size=12&color=blue,size=12&color=blue
+line,"Dashed, 2px red",,"size=2&dash=[2,2]&color=red",size=12&color=red
+line,"Dashed, 6px green",,"size=6&dash=[2,2]&color=green",size=12&color=green
+line,"Dashed, 12px blue",,"size=12&dash=[2,2]&color=blue",size=12&color=blue
 endtab,,,,
-tab,Markers,,"file=""star-16.svg""",
-symbol,Circle,,"file=""circle-16.svg""&width=32&height=32&color=red",
-symbol,Circle with checkmark,,"file=""check-circle-16.svg""&width=32&height=32&color=red",
-symbol,Star,,"file=""star-16.svg""&width=32&height=32&color=red",
-symbol,Square,,"file=""square-16.svg""&width=32&height=32&color=red",
-symbol,Rectangle,,"file=""rectangle-16.svg""&width=32&height=32&color=red",
-symbol,Triangle,,"file=""exclamation-mark-triangle-16.svg""&width=32&height=32&color=red",
+tab,Markers,,"symbol=""star-16.svg""",
+symbol,Circle,,"symbol=""circle-16.svg""&size=64",
+symbol,Circle with checkmark,,"symbol=""check-circle-16.svg""&size=64",
+symbol,Star,,"symbol=""star-16.svg""&size=64",
+symbol,Square,,"symbol=""square-16.svg""&size=64",
+symbol,Rectangle,,"symbol=""rectangle-16.svg""&size=64",
+symbol,Triangle,,"symbol=""exclamation-mark-triangle-16.svg""&size=64",
 endtab,,,,
-tab,Text,,"file=""heading-16.svg""",
-text,Small,,,fontSize=12
-text,Medium,,,fontSize=18
-text,Large,,,fontSize=24
-text,"Small, red",,,fontSize=12&color=red
-text,"Medium, red",,,fontSize=18&color=red
-text,"Large, red",,,fontSize=24&color=red
-text,"Small, gold",,,fontSize=12&color=gold
-text,"Medium, gold",,,fontSize=18&color=gold
-text,"Large, gold",,,fontSize=24&color=gold
+tab,Text,,"symbol=""heading-16.svg""",
+text,Small,,,size=12
+text,Medium,,,size=18
+text,Large,,,size=24
+text,"Small, red",,,size=12&color=red
+text,"Medium, red",,,size=18&color=red
+text,"Large, red",,,size=24&color=red
+text,"Small, gold",,,size=12&color=gold
+text,"Medium, gold",,,size=18&color=gold
+text,"Large, gold",,,size=24&color=gold
 endtab,,,,
