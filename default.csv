@@ -1,14 +1,14 @@
 type,label,sketchStyle,symbolStyle,textStyle
 tab,Lines,,"symbol=""line-straight-16.svg""",
-line,"Solid, 2px, red",,size=2&color=red,size=12&color=red
-line,"Solid, 2px, green",,size=2&color=green,size=12&color=green
-line,"Solid, 2px, blue",,size=2&color=blue,size=12&color=blue
-line,"Solid, 12px, red",,size=12&color=red,size=12&color=red
-line,"Solid, 12px, green",,size=12&color=green,size=12&color=green
-line,"Solid, 12px, blue",,size=12&color=blue,size=12&color=blue
-line,"Dashed, 2px red",,"size=2&dash=[2,2]&color=red",size=12&color=red
-line,"Dashed, 2px green",,"size=2&dash=[2,2]&color=green",size=12&color=green
-line,"Dashed, 2px blue",,"size=2&dash=[2,2]&color=blue",size=12&color=blue
+line,"Straight solid, 2px, red",mode=straight,size=2&color=red,size=12&color=red
+line,"Straight solid, 2px, green",mode=straight,size=2&color=green,size=12&color=green
+line,"Straight solid, 2px, blue",mode=straight,size=2&color=blue,size=12&color=blue
+line,"Free solid, 12px, red",mode=free,size=12&color=red,size=12&color=red
+line,"Free solid, 12px, green",mode=free,size=12&color=green,size=12&color=green
+line,"Free solid, 12px, blue",mode=free,size=12&color=blue,size=12&color=blue
+line,"Straight, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red",size=12&color=red
+line,"Straight, dashed, 2px, green",mode=straight,"size=2&dash=[2,2]&color=green",size=12&color=green
+line,"Straight, dashed, 2px, blue",mode=straight,"size=2&dash=[2,2]&color=blue",size=12&color=blue
 endtab,,,,
 tab,Markers,,"symbol=""star-16.svg""",
 marker,Circle,,"symbol=""circle-16.svg""&size=64",
