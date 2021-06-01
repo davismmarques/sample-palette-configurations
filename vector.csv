@@ -1,17 +1,17 @@
 type,label,sketchStyle,symbolStyle,textStyle
 tab,Lines,,"symbol=""line-straight-16.svg""",
 line,"Straight solid, 2px, red",mode=straight,size=2&color=red,size=12&color=red
-line,"Straight solid, 2px, green",mode=straight,size=2&color=green,size=12&color=green
-line,"Straight solid, 2px, blue",mode=straight,size=2&color=blue,size=12&color=blue
-line,"Free solid, 12px, red",mode=free,size=12&color=red,size=12&color=red
-line,"Free solid, 12px, green",mode=free,size=12&color=green,size=12&color=green
-line,"Free solid, 12px, blue",mode=free,size=12&color=blue,size=12&color=blue
+line,"Straight solid, 4px, green",mode=straight,size=4&color=green,size=12&color=green
+line,"Straight solid, 8px, blue",mode=straight,size=8&color=blue,size=12&color=blue
+line,"Free solid, 2px, red",mode=free,size=2&color=red,size=12&color=red
+line,"Free solid, 4px, green",mode=free,size=4&color=green,size=12&color=green
+line,"Free solid, 8px, blue",mode=free,size=8&color=blue,size=12&color=blue
 line,"Straight, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red",size=12&color=red
-line,"Straight, dashed, 2px, green",mode=straight,"size=2&dash=[2,2]&color=green",size=12&color=green
-line,"Straight, dashed, 2px, blue",mode=straight,"size=2&dash=[2,2]&color=blue",size=12&color=blue
-line,"Straight, dashed, 2px, red",mode=polyline,"size=2&dash=[2,2]&color=red",size=12&color=red
-line,"Straight, dashed, 2px, green",mode=polyline,"size=2&dash=[2,2]&color=green",size=12&color=green
-line,"Straight, dashed, 2px, blue",mode=polyline,"size=2&dash=[2,2]&color=blue",size=12&color=blue
+line,"Straight, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green",size=12&color=green
+line,"Straight, dashed, 8px, blue",mode=straight,"size=8&dash=[2,2]&color=blue",size=12&color=blue
+line,"Polyline, dashed, 2px, red",mode=polyline,"size=2&dash=[2,2]&color=red",size=12&color=red
+line,"Polyline, dashed, 4px, green",mode=polyline,"size=4&dash=[2,2]&color=green",size=12&color=green
+line,"Polyline, dashed, 8px, blue",mode=polyline,"size=8&dash=[2,2]&color=blue",size=12&color=blue
 endtab,,,,
 tab,Areas,,"symbol=""polygon-vertices-16.svg""",
 area,"Red, solid line & fill",,size=2&color=red&fill=red,
