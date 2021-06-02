@@ -1,14 +1,22 @@
 type,label,sketchStyle,symbolStyle,textStyle
 tab,Lines,,"symbol=""line-straight-16.svg""",
-line,"Straight solid, 2px, red",mode=straight,size=2&color=red,size=12&color=red
-line,"Straight solid, 2px, green",mode=straight,size=2&color=green,size=12&color=green
-line,"Straight solid, 2px, blue",mode=straight,size=2&color=blue,size=12&color=blue
-line,"Free solid, 12px, red",mode=free,size=12&color=red,size=12&color=red
-line,"Free solid, 12px, green",mode=free,size=12&color=green,size=12&color=green
-line,"Free solid, 12px, blue",mode=free,size=12&color=blue,size=12&color=blue
-line,"Straight, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red",size=12&color=red
-line,"Straight, dashed, 2px, green",mode=straight,"size=2&dash=[2,2]&color=green",size=12&color=green
-line,"Straight, dashed, 2px, blue",mode=straight,"size=2&dash=[2,2]&color=blue",size=12&color=blue
+line,"Straight line, solid, 2px, red",mode=straight,size=2&color=red,size=12&color=red
+line,"Straight line, solid, 4px, green",mode=straight,size=4&color=green,size=12&color=green
+line,"Straight line, solid, 8px, blue",mode=straight,size=8&color=blue,size=12&color=blue
+line,"Straight line, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red",size=12&color=red
+line,"Straight line, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green",size=12&color=green
+line,"Straight line, dashed, 8px, blue",mode=straight,"size=8&dash=[2,2]&color=blue",size=12&color=blue
+line,"Polyline, dashed, 2px, red",mode=polyline,"size=2&dash=[2,2]&color=red",size=12&color=red
+line,"Polyline, dashed, 4px, green",mode=polyline,"size=4&dash=[2,2]&color=green",size=12&color=green
+line,"Polyline, dashed, 8px, blue",mode=polyline,"size=8&dash=[2,2]&color=blue",size=12&color=blue
+line,"Freeform line, solid, 2px, red",mode=free,size=2&color=red,size=12&color=red
+line,"Freeform line, solid, 4px, green",mode=free,size=4&color=green,size=12&color=green
+line,"Freeform line, solid, 8px, blue",mode=free,size=8&color=blue,size=12&color=blue
+endtab,,,,
+tab,Areas,,"symbol=""polygon-vertices-16.svg""",
+area,"Red, solid line & fill",,size=2&color=red&fill=red,
+area,"Red, solid line, transparent fill",,"size=2&color=red&fill=""#88FF0000""",
+area,"Blue, dashed line, transparent fill",,"size=2&dash=[2,2]&color=""#000088""&fill=""#88000088""",
 endtab,,,,
 tab,Markers,,"symbol=""star-16.svg""",
 marker,Circle,,"symbol=""circle-16.svg""&size=64",
