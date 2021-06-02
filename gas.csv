@@ -1,33 +1,38 @@
-type,label,sketchStyle,symbolStyle,textStyle
-tab,Existing,,"symbol=""line-dotted-16.svg""",
-line,Existing gas service,mode=polyline,size=3&color=gold,
-line,Existing gas service to be abandoned,mode=polyline,"size=3&color=gold&dash=[10,2]",
-line,Existing inserted gas service,mode=polyline,size=6&color=gold,
-line,Existing gas main,mode=polyline,size=3&color=green,
-line,Existing gas main to be abandoned,mode=polyline,"size=3&color=green&dash=[10,2]",
-line,Existing inserted gas main,mode=polyline,size=3&color=green,
+type,label,symbolStyle,sketchStyle,textStyle
+tab,Existing,"symbol=""line-dotted-16.svg""",,
+line,Existing gas service,size=3&color=gold,mode=straight,autoText=true&size=12&color=gold
+line,Existing gas service to be abandoned,"size=3&color=gold&dash=[10,2]",mode=straight,autoText=true&size=12&color=gold
+line,Existing inserted gas service,size=6&color=gold,mode=straight,autoText=true&size=12&color=gold
+line,Existing gas main,size=3&color=green,mode=straight,autoText=true&size=12&color=green
+line,Existing gas main to be abandoned,"size=3&color=green&dash=[10,2]",mode=straight,autoText=true&size=12&color=green
+line,Existing inserted gas main,size=3&color=green,mode=straight,autoText=true&size=12&color=green
 endtab,,,,
-tab,Proposed,,"symbol=""line-solid-16.svg""",
-line,Proposed gas service,mode=polyline,"size=3&color=magenta&dash=[5,2]",
-line,Proposed inserted gas service,mode=polyline,"size=6&color=magenta&dash=[5,2]",
-line,Proposed gas main,mode=polyline,"size=3&color=cyan&dash=[7,2]",
-line,Proposed inserted gas main,mode=polyline,"size=6&color=cyan&dash=[7,2]",
+tab,Proposed,"symbol=""line-solid-16.svg""",,
+line,Proposed gas service,"size=3&color=magenta&dash=[5,2]",mode=straight,autoText=true&size=12&color=magenta
+line,Proposed inserted gas service,"size=6&color=magenta&dash=[5,2]",mode=straight,autoText=true&size=12&color=magenta
+line,Proposed gas main,"size=3&color=cyan&dash=[7,2]",mode=straight,autoText=true&size=12&color=cyan
+line,Proposed inserted gas main,"size=6&color=cyan&dash=[7,2]",mode=straight,autoText=true&size=12&color=cyan
 endtab,,,,
-tab,Markers,,"symbol=""star-16.svg""",
-marker,Proposed service tee,,"symbol=""pge-proposed-tee.svg""&size=64",
-marker,Proposed service riser,,"symbol=""pge-proposed-riser.svg""&size=64",
-marker,Proposed service valve,,"symbol=""pge-proposed-valve.svg""&size=64",
-marker,Proposed service EFV,,"symbol=""pge-proposed-efv.svg""&size=64",
-marker,Proposed service meter,,"symbol=""pge-proposed-meter.svg""&size=64",
-marker,Proposed service regulator,,"symbol=""pge-proposed-regulator.svg""&size=64",
-marker,Existing service tee,,"symbol=""pge-existing-tee.svg""&size=64",
-marker,Existing service riser,,"symbol=""pge-existing-riser.svg""&size=64",
-marker,Existing service valve,,"symbol=""pge-existing-valve.svg""&size=64",
-marker,Existing service EFV,,"symbol=""pge-existing-efv.svg""&size=64",
-marker,Existing service meter,,"symbol=""pge-existing-meter.svg""&size=64",
-marker,Existing service regulator,,"symbol=""pge-existing-regulator.svg""&size=64",
+tab,Dimensions,"symbol=""arrow-up-right-16.svg""",,
+line,"Line with end arrowhead, auto text, red",size=4&color=red&end=arrow,mode=straight,autoText=true&size=12&color=red
+line,"Freehand line, blue ",size=4&color=blue ,mode=free,
+line,Smart line,size=4&color=yellow ,mode=smart,
 endtab,,,,
-tab,Labels,,"symbol=""heading-16.svg""",
+tab,Markers,"symbol=""star-16.svg""",,
+marker,Proposed service tee,"symbol=""pge-proposed-tee.svg""&size=64",,
+marker,Proposed service riser,"symbol=""pge-proposed-riser.svg""&size=64",,
+marker,Proposed service valve,"symbol=""pge-proposed-valve.svg""&size=64",,
+marker,Proposed service EFV,"symbol=""pge-proposed-efv.svg""&size=64",,
+marker,Proposed service meter,"symbol=""pge-proposed-meter.svg""&size=64",,
+marker,Proposed service regulator,"symbol=""pge-proposed-regulator.svg""&size=64",,
+marker,Existing service tee,"symbol=""pge-existing-tee.svg""&size=64",,
+marker,Existing service riser,"symbol=""pge-existing-riser.svg""&size=64",,
+marker,Existing service valve,"symbol=""pge-existing-valve.svg""&size=64",,
+marker,Existing service EFV,"symbol=""pge-existing-efv.svg""&size=64",,
+marker,Existing service meter,"symbol=""pge-existing-meter.svg""&size=64",,
+marker,Existing service regulator,"symbol=""pge-existing-regulator.svg""&size=64",,
+endtab,,,,
+tab,Labels,"symbol=""heading-16.svg""",,
 text,"Small, magenta",,,size=12&color=magenta
 text,"Medium, magenta",,,size=18&color=magenta
 text,"Large, magenta",,,size=24&color=magenta

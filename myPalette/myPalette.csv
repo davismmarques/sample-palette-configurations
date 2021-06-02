@@ -1,0 +1,30 @@
+type,label,symbolStyle,sketchStyle,textStyle
+tab,Lines,"symbol=""line-straight-16.svg""",,
+line,"Straight line, solid, 2px, red",size=2&color=red,mode=straight,size=12&color=red
+line,"Straight line, solid, 4px, green",size=4&color=green,mode=straight,size=12&color=green
+line,"Straight line, solid, 8px, blue",size=8&color=blue,mode=straight,size=12&color=blue
+line,"Straight line, dashed, 2px, red","size=2&dash=[2,2]&color=red",mode=straight,size=12&color=red
+line,"Straight line, dashed, 4px, green","size=4&dash=[2,2]&color=green",mode=straight,size=12&color=green
+line,"Straight line, dashed, 8px, blue","size=8&dash=[2,2]&color=blue",mode=straight,size=12&color=blue
+line,"Freeform line, solid, 2px, red",size=2&color=red,mode=free,size=12&color=red
+line,"Freeform line, solid, 4px, green",size=4&color=green,mode=free,size=12&color=green
+line,"Freeform line, solid, 8px, blue",size=8&color=blue,mode=free,size=12&color=blue
+line,"Line with arrowhead, solid, red",size=2&color=red&end=arrow,mode=smart,
+line,"Line with arrowhead and label, solid, red",size=2&color=red&end=arrow,mode=smart,autoText=true&size=12&color=red
+endtab,,,,
+tab,Markers,"symbol=""star-16.svg""",,
+marker,Smiling sun,"symbol=""sun.svg""&size=64",,
+marker,Star,"symbol=""star.svg""&size=64",,
+marker,Comment bubble,"symbol=""comment.svg""&size=64",,
+endtab,,,,
+tab,Text,"symbol=""heading-16.svg""",,
+text,Small,,,size=12
+text,Medium,,,size=18
+text,Large,,,size=24
+text,"Small, red",,,size=12&color=red
+text,"Medium, red",,,size=18&color=red
+text,"Large, red",,,size=24&color=red
+text,"Small, gold",,,size=12&color=gold
+text,"Medium, gold",,,size=18&color=gold
+text,"Large, gold",,,size=24&color=gold
+endtab,,,,
