@@ -19,7 +19,10 @@ line,"Line with end arrowhead, auto text, gold",size=4&color=gold&end=arrow,mode
 line,"Line with end arrowhead, auto text, green",size=4&color=green&end=arrow,mode=straight,autoText=true&size=12&color=green
 line,"Line with end arrowhead, auto text, blue",size=4&color=blue&end=arrow,mode=straight,autoText=true&size=12&color=blue
 line,"Freehand line, blue ",size=4&color=blue ,mode=free,
-line,Smart line,size=4&color=yellow ,mode=smart,
+line,"Smart line, red",size=4&color=red ,mode=smart,
+line,"Smart line, yellow",size=4&color=gold ,mode=smart,
+line,"Smart line, green",size=4&color=green ,mode=smart,
+line,"Smart line, blue",size=4&color=blue ,mode=smart,
 endtab,,,,
 tab,Markers,"symbol=""star-16.svg""",,
 marker,Proposed service tee,"symbol=""pge-proposed-tee.svg""&size=64",,
