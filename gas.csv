@@ -13,8 +13,11 @@ line,Proposed inserted gas service,"size=6&color=magenta&dash=[5,2]",mode=straig
 line,Proposed gas main,"size=3&color=cyan&dash=[7,2]",mode=straight,autoText=true&size=12&color=cyan
 line,Proposed inserted gas main,"size=6&color=cyan&dash=[7,2]",mode=straight,autoText=true&size=12&color=cyan
 endtab,,,,
-tab,Dimensions,"symbol=""arrow-up-right-16.svg""",,
+tab,Sketch,"symbol=""arrow-up-right-16.svg""",,
 line,"Line with end arrowhead, auto text, red",size=4&color=red&end=arrow,mode=straight,autoText=true&size=12&color=red
+line,"Line with end arrowhead, auto text, gold",size=4&color=gold&end=arrow,mode=straight,autoText=true&size=12&color=gold
+line,"Line with end arrowhead, auto text, green",size=4&color=green&end=arrow,mode=straight,autoText=true&size=12&color=green
+line,"Line with end arrowhead, auto text, blue",size=4&color=blue&end=arrow,mode=straight,autoText=true&size=12&color=blue
 line,"Freehand line, blue ",size=4&color=blue ,mode=free,
 line,Smart line,size=4&color=yellow ,mode=smart,
 endtab,,,,
