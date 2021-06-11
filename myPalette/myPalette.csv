@@ -13,9 +13,9 @@ line,"Line with arrowhead, solid, red",size=2&color=red&end=arrow,mode=smart,
 line,"Line with arrowhead and label, solid, red",size=2&color=red&end=arrow,mode=smart,autoText=true&size=12&color=red
 endtab,,,,
 tab,Markers,"symbol=""star-16.svg""",,
-marker,Smiling sun,"symbol=""sun.svg""&size=64",,
-marker,Star,"symbol=""star.svg""&size=64",,
-marker,Comment bubble,"symbol=""comment.svg""&size=64",,
+marker,Gas meter,"symbol=""pge-existing-meter.svg""&size=64",,
+marker,Gas riser,"symbol=""pge-existing-riser.svg""&size=64",,
+marker,Gas valve,"symbol=""pge-existing-valve.svg""&size=64",,
 endtab,,,,
 tab,Text,"symbol=""heading-16.svg""",,
 text,Small,,,size=12

@@ -13,6 +13,13 @@ line,"Freeform line, solid, 2px, red",mode=free,size=2&color=red,size=12&color=r
 line,"Freeform line, solid, 4px, green",mode=free,size=4&color=green,size=12&color=green
 line,"Freeform line, solid, 8px, blue",mode=free,size=8&color=blue,size=12&color=blue
 endtab,,,,
+tab,Arrowheads,,"symbol=""line-straight-16.svg""",
+line,"Straight line, solid, 2px, red",mode=straight,size=2&color=red&start=arrow&end=arrow,size=12&color=red
+line,"Straight line, solid, 4px, green",mode=straight,size=4&color=green&start=circle&end=circle,size=12&color=green
+line,"Straight line, solid, 8px, blue",mode=straight,size=8&color=blue&start=diamond&end=diamond,size=12&color=blue
+line,"Straight line, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red&start=line&end=line",size=12&color=red
+line,"Straight line, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green&start=square&end=square",size=12&color=green
+endtab,,,,
 tab,Areas,,"symbol=""polygon-vertices-16.svg""",
 area,"Red, solid line & fill",,size=2&color=red&fill=red,
 area,"Red, solid line, transparent fill",,"size=2&color=red&fill=""#88FF0000""",
