@@ -6,12 +6,12 @@ line,"Straight line, solid, 8px, blue",mode=straight,size=8&color=blue,autotext=
 line,"Straight line, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red",autotext=true&size=12&color=red
 line,"Straight line, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green",autotext=true&size=12&color=green
 line,"Straight line, dashed, 8px, blue",mode=straight,"size=8&dash=[2,2]&color=blue",autotext=true&size=12&color=blue
-line,"Polyline, dashed, 2px, red",mode=polyline,"size=2&dash=[2,2]&color=red",autotext=true&size=12&color=red
-line,"Polyline, dashed, 4px, green",mode=polyline,"size=4&dash=[2,2]&color=green",autotext=true&size=12&color=green
-line,"Polyline, dashed, 8px, blue",mode=polyline,"size=8&dash=[2,2]&color=blue",autotext=true&size=12&color=blue
-line,"Freeform line, solid, 2px, red",mode=free,size=2&color=red,size=12&color=red
-line,"Freeform line, solid, 4px, green",mode=free,size=4&color=green,size=12&color=green
-line,"Freeform line, solid, 8px, blue",mode=free,size=8&color=blue,size=12&color=blue
+line,"Polyline, dashed, 2px, red",mode=polyline,"size=2&dash=[2,2]&color=red",autotext=true&size=12&color=red&position=middle
+line,"Polyline, dashed, 4px, green",mode=polyline,"size=4&dash=[2,2]&color=green",autotext=true&size=12&color=green&position=start
+line,"Polyline, dashed, 8px, blue",mode=polyline,"size=8&dash=[2,2]&color=blue",autotext=true&size=12&color=blue&position=end
+line,"Freeform line, solid, 2px, red",mode=free,size=2&color=red,autotext=true&size=12&color=red&position=middle
+line,"Freeform line, solid, 4px, green",mode=free,size=4&color=green,autotext=true&size=12&color=green&position=start
+line,"Freeform line, solid, 8px, blue",mode=free,size=8&color=blue,autotext=true&size=12&color=blue&position=end
 endtab,,,,
 tab,Arrowheads,,"symbol=""line-straight-16.svg""",
 line,"Straight line, solid, 2px, red",mode=straight,size=2&color=red&start=arrow&end=arrow,size=12&color=red
