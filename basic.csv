@@ -1,26 +1,26 @@
 type,label,sketchStyle,symbolStyle,textStyle
 tab,Lines,,"symbol=""line-straight-16.svg""",
 line,"Smart sketch, solid, 4px, red",mode=smart,size=4&color=red,
-line,"Straight line, solid, 2px, red",mode=straight,size=2&color=red,autotext=true&size=12&color=red&position=middle
-line,"Straight line, solid, 4px, green",mode=straight,size=4&color=green,autotext=true&size=12&color=green&position=start
-line,"Straight line, solid, 8px, blue",mode=straight,size=8&color=blue,autotext=true&size=12&color=blue&position=end
-line,"Straight line, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red",autotext=true&size=12&color=red
-line,"Straight line, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green",autotext=true&size=12&color=green
-line,"Straight line, dashed, 8px, blue",mode=straight,"size=8&dash=[2,2]&color=blue",autotext=true&size=12&color=blue
-line,"Polyline, dashed, 2px, red",mode=polyline,"size=2&dash=[2,2]&color=red",autotext=true&size=12&color=red&position=middle
-line,"Polyline, dashed, 4px, green",mode=polyline,"size=4&dash=[2,2]&color=green",autotext=true&size=12&color=green&position=start
-line,"Polyline, dashed, 8px, blue",mode=polyline,"size=8&dash=[2,2]&color=blue",autotext=true&size=12&color=blue&position=end
-line,"Freeform line, solid, 2px, red",mode=free,size=2&color=red,autotext=true&size=12&color=red&position=middle
-line,"Freeform line, solid, 4px, green",mode=free,size=4&color=green,autotext=true&size=12&color=green&position=start
-line,"Freeform line, solid, 8px, blue",mode=free,size=8&color=blue,autotext=true&size=12&color=blue&position=end
-line,"Polyline, solid, 4px, red, halo",mode=polyline,size=2&color=red&halo=yellow,autotext=true&size=12&color=blue&position=end&halo=yellow
+line,"Straight line, solid, 2px, red",mode=straight,size=2&color=red,autoText=true&size=12&color=red&position=middle
+line,"Straight line, solid, 4px, green",mode=straight,size=4&color=green,autoText=true&size=12&color=green&position=start
+line,"Straight line, solid, 8px, blue",mode=straight,size=8&color=blue,autoText=true&size=12&color=blue&position=end
+line,"Straight line, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red",autoText=true&size=12&color=red
+line,"Straight line, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green",autoText=true&size=12&color=green
+line,"Straight line, dashed, 8px, blue",mode=straight,"size=8&dash=[2,2]&color=blue",autoText=true&size=12&color=blue
+line,"Polyline, dashed, 2px, red",mode=polyline,"size=2&dash=[2,2]&color=red",autoText=true&size=12&color=red&position=middle
+line,"Polyline, dashed, 4px, green",mode=polyline,"size=4&dash=[2,2]&color=green",autoText=true&size=12&color=green&position=start
+line,"Polyline, dashed, 8px, blue",mode=polyline,"size=8&dash=[2,2]&color=blue",autoText=true&size=12&color=blue&position=end
+line,"Freeform line, solid, 2px, red",mode=free,size=2&color=red,autoText=true&size=12&color=red&position=middle
+line,"Freeform line, solid, 4px, green",mode=free,size=4&color=green,autoText=true&size=12&color=green&position=start
+line,"Freeform line, solid, 8px, blue",mode=free,size=8&color=blue,autoText=true&size=12&color=blue&position=end
+line,"Polyline, solid, 4px, red, halo",mode=polyline,size=2&color=red&halo=yellow,autoText=true&size=12&color=blue&position=end&halo=yellow
 endtab,,,,
 tab,Arrowheads,,"symbol=""line-straight-16.svg""",
-line,"Straight line, red, autotext, start/end arrows",mode=straight,size=2&color=red&start=arrow&end=arrow,size=12&color=red&autotext=true
-line,"Straight line, green, autotext, end circle",mode=straight,size=4&color=green&end=circle,size=12&color=green&autotext=true&position=start
-line,"Straight line, blue, autotext, end diamond",mode=straight,size=8&color=blue&start=diamond,size=12&color=blue&autotext=true&position=end
-line,"Straight line, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red&start=line&end=line",size=12&color=red
-line,"Straight line, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green&start=square&end=square",size=12&color=green
+line,"Straight line, red, autotext, start/end arrows",mode=straight,size=2&color=red&start=arrow&end=arrow,size=12&color=red&autoText=true
+line,"Straight line, green, autotext, end circle",mode=straight,size=4&color=green&end=circle,size=12&color=green&autoText=true&position=start
+line,"Straight line, blue, autotext, end diamond",mode=straight,size=8&color=blue&start=diamond,size=12&color=blue&autoText=true&position=end
+line,"Straight line, dashed, start/end line arrow",mode=straight,"size=2&dash=[2,2]&color=red&start=line&end=line",size=12&color=red
+line,"Straight line, green, start/end square arrows",mode=straight,"size=4&dash=[2,2]&color=green&start=square&end=square",size=12&color=green
 endtab,,,,
 tab,Areas,,"symbol=""polygon-vertices-16.svg""",
 area,"Red, solid line & fill",,size=2&color=red&fill=red,
