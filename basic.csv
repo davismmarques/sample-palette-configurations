@@ -16,9 +16,9 @@ line,"Freeform line, solid, 8px, blue",mode=free,size=8&color=blue,autotext=true
 line,"Polyline, solid, 4px, red, halo",mode=polyline,size=2&color=red&halo=yellow,autotext=true&size=12&color=blue&position=end&halo=yellow
 endtab,,,,
 tab,Arrowheads,,"symbol=""line-straight-16.svg""",
-line,"Straight line, solid, 2px, red",mode=straight,size=2&color=red&start=arrow&end=arrow,size=12&color=red
-line,"Straight line, solid, 4px, green",mode=straight,size=4&color=green&start=circle&end=circle,size=12&color=green
-line,"Straight line, solid, 8px, blue",mode=straight,size=8&color=blue&start=diamond&end=diamond,size=12&color=blue
+line,"Straight line, red, autotext, start/end arrows",mode=straight,size=2&color=red&start=arrow&end=arrow,size=12&color=red&autotext=true
+line,"Straight line, green, autotext, end circle",mode=straight,size=4&color=green&end=circle,size=12&color=green&autotext=true&position=start
+line,"Straight line, blue, autotext, end diamond",mode=straight,size=8&color=blue&start=diamond,size=12&color=blue&autotext=true&position=end
 line,"Straight line, dashed, 2px, red",mode=straight,"size=2&dash=[2,2]&color=red&start=line&end=line",size=12&color=red
 line,"Straight line, dashed, 4px, green",mode=straight,"size=4&dash=[2,2]&color=green&start=square&end=square",size=12&color=green
 endtab,,,,
